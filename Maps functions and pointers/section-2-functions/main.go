@@ -1,35 +1,36 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 )
 
 var divide func(float64, float64) (float64, error)
 
 func main() {
-	//g1, _ := sayHello("David", "Castillo", 25)
-	//fmt.Println(g1)
+	g1, _ := sayHello("David", "Castillo", 25)
+	fmt.Println(g1)
 
-	//fmt.Println(sum(1, 2, 3, 4, 5))
+	fmt.Println(sum(1, 2, 3, 4, 5))
 
-	////IIFE
-	//func() {
-	//	fmt.Println("hello world!")
-	//}()
+	//IIFE
+	func() {
+		fmt.Println("hello world!")
+	}()
 
-	//divide = func(a, b float64) (float64, error) {
-	//	if b == 0.0 {
-	//		return 0.0, errors.New("Cannot divide by zero")
-	//	}
+	divide = func(a, b float64) (float64, error) {
+		if b == 0.0 {
+			return 0.0, errors.New("Cannot divide by zero")
+		}
+
+		return a / b, nil
+	}
 	//
-	//	return a / b, nil
-	//}
-	//
-	//res, err := divide(1.2, 0)
-	//if err != nil {
-	//	// business logic
-	//}
-	//fmt.Println(res, err)
+	res, err := divide(1.2, 0)
+	if err != nil {
+		// business logic
+	}
+	fmt.Println(res, err)
 
 	fibo := myFibo()
 	fmt.Println(fibo(60))

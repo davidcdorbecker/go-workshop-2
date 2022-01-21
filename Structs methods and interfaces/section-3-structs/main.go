@@ -25,11 +25,11 @@ type (
 )
 
 func main() {
-	//batman := character{
-	//	Alias: "Batman",
-	//}
+	batman := character{
+		Alias: "Batman",
+	}
 	//
-	//fmt.Println(batman)
+	fmt.Println(batman)
 	//
 	b := Bird{}
 	b.Animal.Name = "Dog"
@@ -37,15 +37,15 @@ func main() {
 	b.CanFly = false
 	//
 	fmt.Println(b)
-	//b := Bird{
-	//	Animal{ "Dog",  "Mammal"},
-	//	false,
-	//}
-	//
+	b := Bird{
+		Animal{ "Dog",  "Mammal"},
+		false,
+	}
 
-	//bCopy:= b
-	//bCopy.Name = "Other name"
-	//fmt.Println(b, bCopy)
+
+	bCopy:= b
+	bCopy.Name = "Other name"
+	fmt.Println(b, bCopy)
 
 	user := struct {
 		FirstName string `json:"first_name"`
