@@ -26,4 +26,4 @@ func (v *Video) ChangeViews(views int) {
 	v.Views = views
 }
 
-// Create a new function with a pointer receiver to modify likes and dislikes only when possible
+// Create a new function with a pointer receiver to modify likes and dislikes
