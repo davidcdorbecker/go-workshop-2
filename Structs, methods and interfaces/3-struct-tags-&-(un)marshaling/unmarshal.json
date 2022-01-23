@@ -1,0 +1,18 @@
+{
+    "id": "c9da2e2f-29e7-4136-a65d-47be08e088b8",
+    "name": "Is Go any good for videogames?",
+    "views": 1000,
+    "duration": 10.5,
+    "likes": 800,
+    "dislikes": 100,
+    "comments": [
+        {
+            "author": "Fer",
+            "content": "not really, C# seems like a better option for it"
+        },
+        {
+            "author": "Rollo",
+            "content": "I agree fully with what Fer said"
+        }
+    ]
+}

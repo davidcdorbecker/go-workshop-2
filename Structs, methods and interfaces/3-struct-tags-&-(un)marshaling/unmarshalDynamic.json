@@ -1,0 +1,28 @@
+{
+    "id": "c9da2e2f-29e7-4136-a65d-47be08e088b8",
+    "name": "How to pick up a blue chair off the ground",
+    "views": 5000,
+    "duration": 20,
+    "likes": 4000,
+    "dislikes": 100,
+    "comments": [
+        {
+            "author": "Rollo",
+            "content": "I was really hoping this would work with yellow chairs, I don't have any blue ones :c"
+        }
+    ],
+    "timestamps": {
+        "1": {
+            "title": "introduction"
+        },
+        "5": {
+            "title": "procedure"
+        },
+        "10": {
+            "title": "trying with a yellow chair"
+        },
+        "15": {
+            "title": "conclusion"
+        }
+    }
+}
