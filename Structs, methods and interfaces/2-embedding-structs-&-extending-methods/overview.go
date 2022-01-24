@@ -16,8 +16,7 @@ func (v Video) getAuthor() string {
 	return v.Author
 }
 
-// Make a shortVideo behave have the samwe properties and behave in the same way a normal Video would
-
+// Make a shortVideo behave and have the same properties and behave in the same way a normal Video would
 type ShortVideo struct {
 	ID       string
 	Lifetime float64
